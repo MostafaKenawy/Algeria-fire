@@ -1,0 +1,1085 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-7="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">this is algeria fire</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#fire"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#not_fire"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#not_fire"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#not_fire"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#BUI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#BUI">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#BUI"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">68</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#BUI"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Buildup_Index -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Buildup_Index">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#BUI"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">68</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#BUI"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#DC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#DC">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#DC"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">220</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#DC"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#DMC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#DMC">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#DMC"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">65</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#DMC"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Drought_Code -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Drought_Code">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Drought_Code"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">220</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Drought_Code"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Duff_Moisture_Code -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Duff_Moisture_Code">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Duff_Moisture_Code"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">65</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Duff_Moisture_Code"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FFMC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FFMC">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FFMC"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">92</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FFMC"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FWI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FWI">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FWI"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FWI"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Fine_Fuel_Moisture_Code -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Fine_Fuel_Moisture_Code">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Fine_Fuel_Moisture_Code"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">92</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Fine_Fuel_Moisture_Code"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Fire_Weather_Index -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Fire_Weather_Index">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Fire_Weather_Index"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Fire_Weather_Index"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#ISI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#ISI">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#ISI"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">18</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#ISI"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Initial_Spread_Index -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Initial_Spread_Index">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Initial_Spread_Index"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">18</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Initial_Spread_Index"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#RH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#RH">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">21</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#RH"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">90</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#RH"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Rain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Rain">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Rain"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Rain"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Relative_Humidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Relative_Humidity">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">21</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Relative_Humidity"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">90</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Relative_Humidity"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Temperature">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">22</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#tempreture"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">42</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#tempreture"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Wind_speed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Wind_speed">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Wind_speed"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">29</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Wind_speed"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Ws -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Ws">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Ws"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">29</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#Ws"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#month"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#mm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#fire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#fire"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#mm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#mm">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#month"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#month"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#yyyy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#month -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#month">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#month"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#month"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#year"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#not_fire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#not_fire">
+        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#rain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#rain">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#rain"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#rain"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#tempreture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#tempreture">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">22</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#tempreture"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">42</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#tempreture"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#year -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#year">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2012</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#year"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#not_fire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#yyyy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#yyyy">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#FIRE"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2012</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#year"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#fire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#augusts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#augusts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#mm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#month"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#10"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#11"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#13"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#14"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#15"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#16"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#17"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#18"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#19"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#20"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#21"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#22"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#23"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#24"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#25"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#26"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#27"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#28"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#29"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#4"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#5"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#6"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#7"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#9"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#1"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#12"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#2"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#3"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#30"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#31"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#july -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#july">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#mm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#month"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#17"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#18"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#19"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#20"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#21"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#25"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#26"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#27"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#28"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#29"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#30"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#31"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#5"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#6"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#8"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#1"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#10"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#11"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#12"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#13"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#14"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#15"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#16"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#2"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#22"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#23"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#24"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#3"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#4"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#7"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#septamber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#septamber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#mm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#month"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#17"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#18"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#19"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#20"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#21"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#27"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#5"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#1"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#10"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#11"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#12"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#13"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#14"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#15"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#16"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#2"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#22"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#23"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#24"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#25"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#26"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#28"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#29"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#3"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#30"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#31"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#4"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#6"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#7"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#8"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#9"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#septamber"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#NOT_FIRE"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#6"/>
+        <rdfs:comment rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#augusts"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#&apos;june&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#&apos;june&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#mm"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#month"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#11"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#12"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#21"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#23"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#24"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#25"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#26"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#27"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#28"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#29"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#6"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#7"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#8"/>
+        <FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#9"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#1"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#10"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#13"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#14"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#15"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#16"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#17"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#18"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#19"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#2"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#20"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#22"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#29"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#3"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#4"/>
+        <NOT_FIRE rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#23">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#24">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#26 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#26">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#27 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#27">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#28 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#29 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#29">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#31"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedaliashour/ontologies/2022/0/untitled-ontology-7#day"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
